@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		features="src/test/resources/com/facebook/features/parameterization/",
 		glue= {"com.facebook.step_definitions.parameterization"},
 		plugin= {"html:target/cucumber-html-report","json:target/cucumber-json-report/cucumber7.json","pretty:target/cucumber-pretty.txt",
-				"usage:target/cucumber-usage.json","junit:target/cucumber-results.xml","com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"}
+				"junit:target/cucumber-results.xml","com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"}
 		)
 public class RunParameterizationTest {
 
