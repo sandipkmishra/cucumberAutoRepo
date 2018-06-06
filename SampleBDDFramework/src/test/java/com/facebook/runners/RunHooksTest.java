@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		//dryRun=true,
 		features="src/test/resources/com/facebook/features/hooks/",
 		glue= {"com.facebook.step_definitions.hooks"},
-		plugin= {"html:target/cucumber-html-report","json:target/cucumber-json-report/cucumber4.json","pretty:target/cucumber-pretty.txt",
+		plugin= {"html:target/cucumber-html-report","json:target/cucumber4.json","pretty:target/cucumber-pretty.txt",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"}
 		)
 public class RunHooksTest {
