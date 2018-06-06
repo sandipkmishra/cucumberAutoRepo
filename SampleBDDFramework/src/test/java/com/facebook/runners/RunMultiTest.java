@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		//dryRun=true,
 		features="src/test/resources/com/facebook/features/multi/",
 		glue= {"com.facebook.step_definitions.multi"},
-		plugin= {"html:target/cucumber-html-report","json:target/cucumber-json-report/cucumber5.json","pretty:target/cucumber-pretty.txt",
+		plugin= {"html:target/cucumber-html-report","json:target/cucumber5.json","pretty:target/cucumber-pretty.txt",
 				"junit:target/cucumber-results.xml","com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"}
 		)
 public class RunMultiTest {
