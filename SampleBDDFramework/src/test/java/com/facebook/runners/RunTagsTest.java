@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 				tags= {"@Smoke,@Regression"},    //OR condition (Runs 1,2,4,5  excepts 3)
 		features="src/test/resources/com/facebook/features/tags/",
 		glue= {"com.facebook.step_definitions.tags"},
-		plugin= {"html:target/cucumber-html-report","json:target/cucumber-json-report/cucumber9.json","pretty:target/cucumber-pretty.txt",
+		plugin= {"html:target/cucumber-html-report","json:target/cucumber9.json","pretty:target/cucumber-pretty.txt",
 				"junit:target/cucumber-results.xml","com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"}
 		)
 public class RunTagsTest {
